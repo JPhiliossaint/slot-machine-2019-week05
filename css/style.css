@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Bangers', cursive;
+
+}
+
+body{
+    text-align: center;
+    background-image: url(./../images/background.jpeg);
+    color: white;
+    margin-top: 15vh;
+    font-family: 'Bangers', cursive;
+    background-size: cover;
+
+}
+
+#spin{
+    color: white;
+    background-color: rgb(100, 185, 235);
+}
