@@ -1,24 +1,14 @@
-# 🎰 Week05 Bootcamp2019 Project: Slot Machine
+# Street FIghter Slot Machine: <a target="_blank" href="https://slot-machine-jamesphi.netlify.app/"/>Visit Here</a>
 
-### Goal: Build a Simple Slot Machine
+<img src= "sf.gif"/>
 
-Build a simple slot machine with minimum 5 items per reel and 3 reels - user should be able to bet min or max and have their total update
+## Tech used: ![HTML5 BADGE](https://img.shields.io/static/v1?label=%7C&message=HTML5&color=23555f&style=plastic&logo=html5)![CSS BADGE](https://img.shields.io/static/v1?label=%7C&message=CSS3&color=285f65&style=plastic&logo=css3)![JAVASCRIPT BADGE](https://img.shields.io/static/v1?label=%7C&message=JAVASCRIPT&color=3c7f5d&style=plastic&logo=javascript)
 
-### How to submit your code for review:
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+## Optimizations
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+I could add animations using css and the js to make the slot machine look like it's spinning. I could also edit this so that the bank of money cannot be negative.
+
+## Lessons Learned:
+
+Practied manipulating the DOM with js. Reinforced the Separation of Concerns. Learned basic applications of Math.Random to simulate bot AI. Also reinforced my comfort with Event Listeners.
