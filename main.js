@@ -1,10 +1,10 @@
 let bank = 1000
 let betPool = 0
-const ryu = "<img src= './images/ryu.png'>"
-const bison = "<img src= './images/bison.png'>"
-const chunli = "<img src= ./images/chunli.png>"
-const dan = "<img src= './images/dan.png>"
-const dhalsim = "<img src= './images/dhalsim.png'>"
+const ryu = "./images/ryu.png"
+const bison = "./images/bison.png"
+const chunli = "./images/chunli.png"
+const dan = "./images/dan.png"
+const dhalsim = "./images/dhalsim.png"
 
 document.getElementById('lilBet').addEventListener('click', tenToPool)
 document.getElementById('bigBet').addEventListener('click', hundredToPool)
@@ -35,11 +35,11 @@ function slots(){
     let middleSlot = getRandomFruit()
     let rightSlot = getRandomFruit()
     let slotLeft = document.getElementById('leftSlot')
-    slotLeft.src = leftSlot
+    slotLeft.src= leftSlot
     let slotMid = document.getElementById('middleSlot')
-    slotMid.innerHTML = middleSlot
+    slotMid.src = middleSlot
     let slotRight = document.getElementById('rightSlot')
-    slotRight.innerHTML = rightSlot
+    slotRight.src = rightSlot
 
     let winmsg = document.getElementById('msgDisplay')
 
